@@ -1,0 +1,14 @@
+// .devcontainer/devcontainer.json
+{
+  "name": "BDR Raspberry Pi Dev Env",
+  "build": {
+    "dockerfile": "Dockerfile",
+    "context": ".."
+  },
+  "runArgs": ["--platform=linux/arm64"],
+  "settings": {
+    "terminal.integrated.shell.linux": "/bin/bash"
+  },
+  "remoteUser": "bdr",
+  "postCreateCommand": "uname -m && lsb_release -a"
+}
