@@ -15,7 +15,13 @@ RUN apt-get update && apt-get install -y \
 #     libraspberrypi-bin libraspberrypi-dev raspberrypi-kernel-headers \
  && useradd -ms /bin/bash bdr \
  && echo "bdr ALL=(ALL) NOPASSWD: ALL" >> /etc/sudoers \
- && rm -rf /var/lib/apt/lists/*
+ && rm -rf /var/lib/apt/lists/* \
+ && mkdir season2526 \
+ && git@github.com:Bulldogs-Racing/dashboard-ui.git season2526/dashboard-ui \
+ && cd season2526/dashboard-ui \
+ && python -m venv \
+ && cd ~/ \
+ && ~/season2526/dashboard-ui/.venv/bin/pip install pynng
 
 USER bdr
 WORKDIR /home/bdr
