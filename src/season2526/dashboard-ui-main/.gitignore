@@ -1,0 +1,12 @@
+# Environment and local SDK helpers
+.env
+vn_template.py
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.env.*
+
+
