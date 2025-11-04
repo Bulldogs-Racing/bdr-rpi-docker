@@ -1,5 +1,5 @@
 # Raspberry Pi OS Bookworm (64-bit) base
-FROM arm64v8/debian:bookworm
+FROM debian:bookworm
 
 ARG USERNAME=bdr
 ENV DEBIAN_FRONTEND=noninteractive
