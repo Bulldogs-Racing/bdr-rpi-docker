@@ -1,3 +1,5 @@
+# note that you should look at the docx file for pretty veiwing
+
 bdr-rpi-docker repository manual
 About this repository
 This is the documentation for the Github repository called bdr-rpi-docker. It is a Docker environment designed to be integrated with Visual Studios Code for the simulation of the Raspberry Pi environment that the Bulldog’s Racing car operates on. This was designed for development purposes.
@@ -16,3 +18,4 @@ Quickstart
 Theory
 What is Docker?
 Docker is an open platform that enables developers to build, ship, and run applications within isolated environments called containers. It achieves this by providing a standardized way to package an application and all its dependencies (libraries, system tools, code, and runtime) into a single, self-contained unit.
+
