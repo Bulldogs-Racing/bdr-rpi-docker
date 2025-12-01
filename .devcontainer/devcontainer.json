@@ -8,7 +8,7 @@
 		"ghcr.io/devcontainers/features/python:1": {}
 	},
 
-"onCreateCommand": "bash -lc \"mkdir -p /workspaces/${localWorkspaceFolderBasename}/src && python3 -m venv /workspaces/${localWorkspaceFolderBasename}/src/.venv && mkdir -p /workspaces/${localWorkspaceFolderBasename}/src/season2526 && ln -sf /workspaces/${localWorkspaceFolderBasename}/src /home/bdr/src\""
+// "onCreateCommand": "bash -lc \"mkdir -p /workspaces/${localWorkspaceFolderBasename}/src && python3 -m venv /workspaces/${localWorkspaceFolderBasename}/src/.venv && mkdir -p /workspaces/${localWorkspaceFolderBasename}/src/season2526 && ln -sf /workspaces/${localWorkspaceFolderBasename}/src /home/bdr/src\""
 
 // Features to add to the dev container. More info: https://containers.dev/features.
 // "features": {},
