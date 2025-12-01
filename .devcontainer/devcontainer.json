@@ -6,7 +6,10 @@
 	"image": "mcr.microsoft.com/devcontainers/base:bookworm",
 	"features": {
 		"ghcr.io/devcontainers/features/python:1": {}
-	}
+	},
+
+  "onCreateCommand": "ln -sf /workspaces/${localWorkspaceFolderBasename}/src /home/bdr/src"
+  
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	// "features": {},
